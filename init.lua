@@ -1,4 +1,5 @@
 require("config.options")
+require("config.diagnostic_hover")
 require("config.codex")
 require("config.keymaps")
 require("config.lazy")

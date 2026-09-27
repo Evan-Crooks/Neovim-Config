@@ -10,6 +10,7 @@ return {
         ensure_installed = {
           "lua",
           "cpp",
+          "c_sharp",
           "qmljs",
         },
 

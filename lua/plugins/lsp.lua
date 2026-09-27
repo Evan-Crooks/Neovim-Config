@@ -17,6 +17,10 @@ return {
       })
 
       vim.lsp.enable("qmlls")
+
+      -- Requires the .NET SDK and: dotnet tool install --global csharp-ls
+      -- Add ~/.dotnet/tools to PATH so Neovim can find the server.
+      vim.lsp.enable("csharp_ls")
     end,
   },
 }
